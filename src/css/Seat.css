@@ -1,0 +1,31 @@
+.Seat{
+    padding: 1%;
+}
+.seatTaken{
+    opacity: 0.3;
+
+}
+.btn{
+    width:50%;
+    margin: 2%;
+    margin-top: 2%;
+    height:20%;
+    background-color: rgb(226, 65, 40);
+    border:none;
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+.inputs{
+    border: none;
+    border-bottom: 1px solid #303030;
+    margin:2%;
+    margin-bottom: 5%;
+    opacity: 0.6;
+}
+.inputs:focus{
+    opacity: 1;
+}

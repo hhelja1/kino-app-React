@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.Details{
+    
+    color: whitesmoke;
+    font: Verdana;
+    margin:2%;
+    padding: 1%;
+    margin:3%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    display: grid;
+    grid-template-areas: 'a b'
+    'a c'
+    'a d'
+    'a e'
+    'a f'
+    ;
+    padding: 4%;
+    border: 1px solid #303030;
+}
+
+.goBack{
+    width:30%;
+    grid-area: f;
+    height:50%;
+    background-color: rgb(226, 65, 40);
+    border:none;
+    color:whitesmoke;
+    margin: 2%;
+    margin-left: 3%;
+    font-weight: 100;
+}
+.goBack:hover{
+    cursor: pointer;
+}
+.poster{
+    grid-area: a;
+    height:380px;
+     width:270px;
+}
+.Movie_name{
+    margin: 2%;
+    grid-area: b;
+    margin-top: 2%;
+    margin-left: 3%;
+    font-weight: 400;
+}
+.Movie_releaseDate{
+    grid-area: c;
+    margin: 2%;
+    margin-left: 3%;
+    font-weight: 150;
+    font-size: 80%;
+}
+.Movie_duration{
+    grid-area: d;
+    margin: 2%;
+    margin-left: 3%;
+    font-weight: 120;
+}
+.sinopsis{
+    margin:2%;
+    margin-left: 3%;
+    word-wrap: break-word;
+    overflow: hidden;
+    grid-area: e;
+    font-weight: 20;
+    font-size: 80%;
+}
+.Movie_getTickets{
+    margin: 2%;
+    
+} 

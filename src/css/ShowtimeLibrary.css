@@ -1,0 +1,47 @@
+.Seats{
+    background-color: #151414;
+    display:grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-auto-flow: row;
+    opacity: 1;
+    text-align: center;
+    border: 1px solid #303030;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    justify-content: center;
+}
+
+.detNaziv{
+    color: #ccc;
+    padding: 1%;
+    margin:1%;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-weight: 100;
+}
+
+.detSala{
+    color: #ccc;
+    padding: 1%;
+    margin-left: 10%;
+    font-weight: 100;
+    font-size: 80%;
+}
+
+.detBtn{
+    width:10%;
+    margin: 2%;
+    margin-top: 1%;
+    margin-left: 10%;
+    height:20%;
+    background-color: rgb(226, 65, 40);
+    border:none;
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.detBtn:hover{
+    cursor: pointer;
+}

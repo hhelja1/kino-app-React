@@ -1,0 +1,19 @@
+.MovieLibrary_grid{
+    background-color: #151414;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-flow: row;
+    opacity: 1;
+    text-align: center;
+    border: 1px solid #303030;
+}
+.MovieLibrary{
+    margin-top:7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+}
+.Details{
+    background-color: #151414;
+    opacity: 1;
+}

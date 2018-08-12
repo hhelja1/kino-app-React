@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+}
+.App{
+	
+	/*background-image:url(http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-011.jpg);*/ /*colorful*/
+ /* background-image: url(http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-013.jpg);*/ /*blue geometric*/
+ /* background-image: url(http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-018.jpg);*/ /*blu purple*/
+ /*background-image: url(https://img1.goodfon.ru/original/1920x1080/0/45/polygon-paper-geometry-66.jpg);*/ /*pink*/ 
+  
+}
+html,body{  
+  width:100%;
+  height:100%;
+}
+

@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.Showtime_listH{
+    background-color:  #151414;
+    margin:0.5%;
+    align-content: center;
+    height:100%;
+    overflow: hidden;
+    border: 1px solid #303030;
+    padding:0.25%;
+}
+.item{
+    color: #ccc;
+    align-content: center;
+    display:inline-block;
+    padding: 1.5%;
+    margin:1%;
+    overflow: hidden;
+    
+}
+.itemNaziv{
+    color: #ccc;
+    align-content: center;
+    display:inline-block;
+    padding: 1.5%;
+    margin:1%;
+    overflow: hidden;
+    min-width:25%;
+}
+.itemDatum{
+    color: #ccc;
+    align-content: center;
+    display:inline-block;
+    padding: 1.5%;
+    margin:1%;
+    overflow: hidden;
+    min-width:8%;
+}
+.itemButton{
+    color: #ccc;
+    align-content: center;
+    display:inline-block;
+    padding: 1.5%;
+    margin:1%;
+    overflow: hidden;
+    min-width:10%;
+}
+.Showtimes_list{
+    margin: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.itemButton{
+    color: #ccc;
+    width:10%;
+    text-align: center;
+    margin: 1%;
+    background-color: #303030;
+    float: right;
+    display:inline-block;
+    padding: 1.5%;
+    overflow: hidden;
+    border: 1px solid #151414;
+}
+
+.itemButton:hover{
+    cursor: pointer;
+}

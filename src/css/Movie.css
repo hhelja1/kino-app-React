@@ -1,0 +1,40 @@
+.Movie{
+    
+    color: whitesmoke;
+    margin:2%;
+    text-align: center;
+    padding: 1%;
+    opacity: 0.9;
+    width:90%;
+    margin:3%;
+    height:100%;
+    margin-top: 9%;
+    margin-bottom: 9%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Movie_seeMore{
+    width:70%;
+    height:7%;
+    background-color: rgb(226, 65, 40);
+    border:none;
+    color:whitesmoke;
+    margin: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+.Movie_seeMore:hover{
+    cursor: pointer;
+}
+.Movie_name, .Movie_releaseDate, .Movie_duration, .Movie_getTickets{
+    margin-top: 2%;
+}
+
+.Movie_name{
+    font-weight: 200;
+    text-align: center;
+    font-size: 105%;
+}
+.Movie_duration{
+    font-size: 80%;
+    font-weight: 100;
+}
