@@ -1,7 +1,13 @@
 .Seat{
     padding: 1%;
 }
+.seatBtn{
+    height:85%;
+    width:60%;
+}
 .seatTaken{
+    height:85%;
+    width:60%;
     opacity: 0.3;
 
 }

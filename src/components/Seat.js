@@ -44,8 +44,8 @@ class Seat extends Component {
         <div className="Seat">
          
             {this.state.stanje ?
-            <img width = "30" height = "30" src="https://cdn3.iconfinder.com/data/icons/movie-entertainment-filled-outline-style/64/13_seat-movie-cinema-chair-theater-512.png" className = "seatTaken"/>:
-            <Popup trigger={<input type="image" width = "30" height = "30" src="https://cdn3.iconfinder.com/data/icons/movie-entertainment-filled-outline-style/64/13_seat-movie-cinema-chair-theater-512.png" className = "seatBtn" onClick={() => this.clickSeat()}/>} >
+            <img  src="https://cdn3.iconfinder.com/data/icons/movie-entertainment-filled-outline-style/64/13_seat-movie-cinema-chair-theater-512.png" className = "seatTaken"/>:
+            <Popup trigger={<input type="image" src="https://cdn3.iconfinder.com/data/icons/movie-entertainment-filled-outline-style/64/13_seat-movie-cinema-chair-theater-512.png" className = "seatBtn" onClick={() => this.clickSeat()}/>} >
                {close => (
                    <div className="popup">
                    <form onSubmit={this.handleSubmit}>

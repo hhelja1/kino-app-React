@@ -13,6 +13,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.imgMovie{
+    
+    height: 65%;
+    width: 75%;
+}
 .Movie_seeMore{
     width:70%;
     height:7%;
@@ -21,20 +26,23 @@
     color:whitesmoke;
     margin: 2%;
     font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
 }
 .Movie_seeMore:hover{
     cursor: pointer;
 }
 .Movie_name, .Movie_releaseDate, .Movie_duration, .Movie_getTickets{
     margin-top: 2%;
+    
 }
 
 .Movie_name{
     font-weight: 200;
     text-align: center;
-    font-size: 105%;
+    font-size: 1.5vw;
 }
 .Movie_duration{
-    font-size: 80%;
+    font-size: 1vw;
     font-weight: 100;
+    
 }

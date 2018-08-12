@@ -20,6 +20,8 @@
     margin-top: 5%;
     margin-left: 10%;
     font-weight: 100;
+    
+    font-size: 2vw;
 }
 
 .detSala{
@@ -27,7 +29,7 @@
     padding: 1%;
     margin-left: 10%;
     font-weight: 100;
-    font-size: 80%;
+    font-size: 0.9vw;
 }
 
 .detBtn{
@@ -40,6 +42,7 @@
     border:none;
     color:whitesmoke;
     font-family: 'Montserrat', sans-serif;
+    font-size: 0.9vw;
 }
 
 .detBtn:hover{

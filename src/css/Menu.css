@@ -29,6 +29,7 @@
     align-content: center;
     text-align: center;
     border-right: 1px solid #303030;
+    font-size: 1.2vw;
 }
 
 .Menu_list_item:hover{
@@ -39,6 +40,7 @@
     
     display:inline-block;
     height:100%;
+    width:2%;
     margin: 0;
     padding: 0;
     padding-top: 1.5%;
@@ -51,4 +53,6 @@
 .logo{
     float: left;
     display: inline-block;
+    height:40%;
+    width: 100%;
 }

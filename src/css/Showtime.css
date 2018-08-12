@@ -18,6 +18,7 @@
     padding: 1.5%;
     margin:1%;
     overflow: hidden;
+    font-size: 1.3vw;
     
 }
 .itemNaziv{
@@ -28,6 +29,7 @@
     margin:1%;
     overflow: hidden;
     min-width:25%;
+    font-size: 1.3vw;
 }
 .itemDatum{
     color: #ccc;
@@ -37,15 +39,7 @@
     margin:1%;
     overflow: hidden;
     min-width:8%;
-}
-.itemButton{
-    color: #ccc;
-    align-content: center;
-    display:inline-block;
-    padding: 1.5%;
-    margin:1%;
-    overflow: hidden;
-    min-width:10%;
+    font-size: 1.3vw;
 }
 .Showtimes_list{
     margin: 10%;
@@ -64,6 +58,7 @@
     padding: 1.5%;
     overflow: hidden;
     border: 1px solid #151414;
+    font-size: 1vw;
 }
 
 .itemButton:hover{

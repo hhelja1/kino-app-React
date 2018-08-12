@@ -33,34 +33,33 @@
     margin: 2%;
     margin-left: 3%;
     font-weight: 100;
+    font-size: 0.9vw;
 }
 .goBack:hover{
     cursor: pointer;
 }
-.poster{
-    grid-area: a;
-    height:380px;
-     width:270px;
-}
+
 .Movie_name{
     margin: 2%;
     grid-area: b;
     margin-top: 2%;
     margin-left: 3%;
     font-weight: 400;
+    font-size: 1.7vw;
 }
 .Movie_releaseDate{
     grid-area: c;
     margin: 2%;
     margin-left: 3%;
     font-weight: 150;
-    font-size: 80%;
+    font-size: 1vw;
 }
 .Movie_duration{
     grid-area: d;
     margin: 2%;
     margin-left: 3%;
     font-weight: 120;
+    font-size: 1vw;
 }
 .sinopsis{
     margin:2%;
@@ -69,9 +68,13 @@
     overflow: hidden;
     grid-area: e;
     font-weight: 20;
-    font-size: 80%;
+    font-size: 0.9vw;
 }
-.Movie_getTickets{
-    margin: 2%;
-    
-} 
+
+.poster{
+    grid-area: a;
+    width:55%;
+    height: 95%;
+    margin-right: 0;
+    padding-right: 0;
+}
