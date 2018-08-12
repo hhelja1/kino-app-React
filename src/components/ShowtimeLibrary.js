@@ -21,7 +21,7 @@ class ShowtimeLibrary extends React.Component {
     } 
     
     componentDidMount(){
-        fetch('http://localhost:8086/api/vratiListuProjekcija')
+        fetch('https://kino-app-micro-projekcije.herokuapp.com/api/vratiListuProjekcija')
         .then(function(response) {
             /*if (!response.ok) {
                 response.json().then(function(data) {

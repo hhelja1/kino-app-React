@@ -15,7 +15,7 @@ class MovieLibrary extends React.Component {
     }
     
     componentDidMount(){
-        fetch('http://localhost:8085/api/vratiListuFilmova')
+        fetch('https://kino-app-micro-filmovi.herokuapp.com/api/vratiListuFilmova')
         .then(function(response) {
             return response.json();
         }) 

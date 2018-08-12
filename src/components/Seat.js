@@ -19,7 +19,7 @@ class Seat extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.target);
-        fetch('http://localhost:8086/api/rezervacija/' + this.props.data.brojSjedista , {
+        fetch('https://kino-app-micro-projekcije.herokuapp.com/api/rezervacija/' + this.props.data.brojSjedista , {
             method: 'post',
             headers:{
                 'Content-Type': 'application/json'
